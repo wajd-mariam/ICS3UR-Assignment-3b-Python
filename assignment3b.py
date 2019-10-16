@@ -27,7 +27,7 @@ def main():
             print("You can do the exam, attendance is {}%".format(round(avg)))
 
         else:
-            print("You can't do the exam,attendance is {}%".format(round(avg)))
+            print("You can't do the exam, attendance is {}%".format(round(avg)))
     except Exception:
         print("This was not a valid entry")
     finally:
