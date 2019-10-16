@@ -10,15 +10,15 @@ import constants
 def main():
     # getting input from the user
     classes_held = input("Enter the total number of classes held: ")
-    attendance = input("Enter the total number of classes attended: ")
+    classes_attended = input("Enter the total number of classes attended: ")
 
     # process / output
     try:
         integer_as_number1 = int(classes_held)
-        integer_as_number2 = int(attendance)
+        integer_as_number2 = int(classes_attended)
 
     # calculating the average of classes attended by the user
-        avg = (int(attendance) / int(classes_held)) * 100
+        avg = (int(classes_attended) / int(classes_held)) * 100
 
         if avg == constants.ATTENDANCE:
             print("You can do the exam since your attendance is 75%!")
